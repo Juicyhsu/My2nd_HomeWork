@@ -6,6 +6,6 @@ COPY static /app/static/
 WORKDIR /app
 RUN pip install -r requirements.txt
 
-ENV GOOGLE_API_KEY="AIzaSyC4zNFcHmJuIrKMHz6bFGHscjejbVKr06A"
+ENV GOOGLE_API_KEY="我的金鑰(密)"
 
 ENTRYPOINT ["python","Gemini.py"]
